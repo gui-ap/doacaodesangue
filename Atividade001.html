@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doação de sangue</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="cabecalho">
+        <p>Bem vindo, verificação de dados para doação de sangue.</p>
+        <hr>
+    </div>
+
+    <div class="formulario">
+        <form method="post" action="index.php">
+
+            <label>Informe a idade :</label>
+            <input type="number" min="0" name="idade" required>
+            <label>Anos</label>
+
+            <br><br>
+
+            <label>Informe a peso :</label>
+            <input type="number" min="0" name="peso" required>
+            <label>Kg</label>
+
+            <br><br>
+
+            <input type="submit" value="Verificar dados">
+
+        </form>
+    </div>
+</body>
+
+</html>
